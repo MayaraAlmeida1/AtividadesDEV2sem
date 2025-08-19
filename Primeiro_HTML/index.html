@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro html</title>
+</head>
+
+<body>
+    <h1 id="Sobre">HELLO WORLD!!!! (esse é o h1)</h1>
+    <H2>Senai Paulo Antonio Skaf (esse é o h2)</H2>
+    <h3>São Caetano do Sul, São Paulo (esse é o h3)</h3>
+    <p>Hoje no dia 13 de agosto iniciei meu primeiro html no senai (esse é o parágrafo) </p>
+    <p>Eu quero <em>comer alguma coisa doceee</em></p> <!--(o "em" deixa a palavra em ênfase/itálico)-->
+    <p>Eu não quero ir para a <strong>escola hoje aff</strong></p>  <!--(o "strong" deixa a palavra em negrito)-->
+    <p>H<sub>2</sub>O</p> <!-- (o "sub" deixa o caracter subscrito/embaixo)-->
+    <p>10<sup>2 </sup>= 100</p> <!--(o "sup" deixa o caracter elevado)-->
+    <a href="#Sobre">Sobre</a> <!--Links para outra página, ou para dentro do site mesmo-->
+    <br>
+    <a href="teste1.pdf" download> baixe o pdf aqui</a>
+    <!-- Aqui pode escrever um comentario -->
+    <!-- "br" - pula a linha-->
+    <!--"width" - troca a largura da imagem-->
+    <!-- "height" - muda a altura da imagem-->
+    <br>
+    <img src="gatinho fofo.jpg" alt="Gatinho fofinho" width="200">
+    <figure> <!--permite mexer na imagem, como acrescentar um comentário-->
+        <img src="gatinho fofo.jpg" alt="Gatinho fofinho" width="200">
+        <figcaption>Comentario abaixo da imagem</figcaption> <!-- o "figcaption" adiciona um comentario abaixo da imagem-->
+    </figure>
+   <video controls width="400"> 
+    <source src="video.mp4" type="video/mp4">
+   </video>
+
+    <!-- o ul cria uma lista não ordenada / tópicos -->
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+    </ul>
+
+    <!-- o ul cria uma lista ordenada, com números -->
+    <ol>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+    </ol>
+
+    <form> <!--criação de um formulário para entrega ou seleção-->
+    <label for="nome">Nome</label>
+    <input id="nome" type="text"required>
+
+    <label for="Email">Email</label>
+    <input type="Email" name="Email" id="Email" placeholder="email@email.com"> <!--o "placeholder deixa dentro da caixa a mensagem, quando clica na caixa ela some"-->
+
+    <label>Tipo</label>
+    <label>
+        <input type="radio" name="aluno" id="aluno" checked>
+        Aluno
+    <label>
+            <input type="radio" name="docente" id="docente">
+            Docente
+    </label>
+
+    <label for="interesses">Interesses</label> <!--opções de escolha-->
+    <select name="" id=""> 
+        <option>HTML</option>
+        <option>CSS</option>
+        <option>Banco de Dados</option>
+    </select>
+
+    <label for="arquivo">Anexar arquivo</label>
+    <input type="file" name="arquivo" id="arquivo">
+
+    <label for="senha">Senha</label>
+    <input type="password" name="senha" id="senha" required>
+      
+    <button type="submit">Enviar</button> <!--botão-->
+
+    </form>
+</body>
+
+</html>
