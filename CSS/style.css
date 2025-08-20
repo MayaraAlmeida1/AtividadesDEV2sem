@@ -1,0 +1,91 @@
+* /*chama variavel global para a pagina*/
+{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0; /*espçamento do bloco de texto da borda da pagina*/
+    padding: 0; /*espaçamentos dos elementos dentro de um bloco de texto baseando-se nas bordas dele msm*/
+    box-sizing: border border-box; /*ajusta o tamanho dos elementos no pai, e não pelos pixels */
+}
+
+body /* chama o body do html para estilizar*/
+{
+    background-color: #0b0e14; /*fundo da tela*/
+    color: #FFFFFF; /*cor das letras*/
+    padding: 50px;
+}
+
+.banner /*chamar a div banner*/
+{
+    /* caso quissesse colocar uma cor solida como banner
+    background-color: aqua;
+    padding: 50px;
+    margin: 50px 30px 30px; com três valores as ordens são: o primeiro em cima, o segundo esquerda e direita e o terceiro embaixo
+    com dois valores a ordem é: o primeiro de cima e embaixo, e o segundo da esquerda e direita
+    com quatro valores o sentido vai em horário: cima, direita, embaixo e esquerda*/
+    background-image: linear-gradient(180deg, rgba(11, 14, 20, 0), rgba(11, 14, 20, 0.6)), url("https://picsum.photos/600/300/?blur=1");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    padding: 40px;
+    text-align: center; /*alinha o texto no bloco no centro*/
+}
+
+.banner p /*estilizar o parágrafo do banner*/
+{
+    margin: 5px 0 0;
+    color: #d9e6ff;
+}
+
+.destaque
+{
+    color: #0a7cff;
+}
+
+#especial /*chamar um id para estilizar com a # na frente*/
+{
+    background-color:  #5a6a91;
+    padding: 5px;
+    border-radius: 30px; /*arredondar bordas do bloco*/
+    width: 500px;
+}
+
+img
+{
+    max-width: 50%;/*largura máxima da imagem*/
+    border-radius: 8px;
+}   
+
+table
+{
+    border-collapse: collapse; /*tirar a linha padrao que separa os blocos da tabela*/
+    width: 100%;
+    margin-top: 10px; /*margem do topo do bloco*/
+}
+
+th, td
+{
+    border: 1px solid #1a2030; /*espessura da borda + cor*/
+    padding: 8px;
+}
+
+th
+{
+    background-color: #101522;
+}
+
+.botao
+{
+    background-color: #0a7cff;
+    border: none; /*tirar borda padrao do botao*/
+    padding: 10px 15px;
+    border-radius: 6px;
+    color: #FFFFFF;
+}
+
+.botao:hover /*estilizar ao passar o mouse por cima*/
+{
+    cursor: pointer;/*muda o ponteiro*/
+    background-color: #005bb5; /*mudar a cor do botao*/
+    padding: 15px 30px; /*ajustar o tamanho qnd passar o mouse por cima*/
+}
+
