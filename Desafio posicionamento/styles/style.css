@@ -1,0 +1,81 @@
+img /*ao utilizar a tag img, padroniza todos os img presentes no html*/
+{
+    width: 200px; 
+}
+
+.fantasma
+{
+    width: 130px;
+}
+
+.div-flex /*para padronizar todas as div-flex criadas a serem estilizadas*/
+{
+    background-color: aqua;
+    display: flex; /*ativou o flex para posicionamento, por padrão alinha horizontalmente as imagens*/
+    margin-bottom: 50px; /*para espaçar os blocos de elementos*/
+}
+
+.espacado1 
+{
+    justify-content: space-between; /*joga os elementos uma para cada ponta e oq sobrar alinha entre eles*/
+}
+
+.espacado2 
+{
+    justify-content: space-around; /*os elementos sao distribuídos uniformemente de acordo com a sua caixa, porém o espaço da borda não fica igual o espaço entre eles (fica menor)*/
+}   
+
+.centralizado  
+{
+    justify-content: center; /*alinha os elemntos juntos no centro*/
+}
+.direita 
+{
+    justify-content: flex-end; /*alinha os elementos no canto direito da página*/
+}   
+
+
+.direita-amarelo
+{
+    justify-content: space-between; 
+}
+
+.amarelo
+{
+    background-color: yellow;
+}
+
+.amarelo-novo
+{
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+    width: 960px;
+}
+
+.coluna 
+{
+    flex-direction: column; /*alinha as imagens em coluna*/
+    height: 960px;
+    align-items: flex-start; /*alinha tudo no começo*/
+}
+
+.rosa-cima
+{
+    background-color: violet;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.rosa-baixo 
+{
+    background-color: violet;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.coluna-nova
+{
+    flex-direction: column;
+    height: 960px;
+}
