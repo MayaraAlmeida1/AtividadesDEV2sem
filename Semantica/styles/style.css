@@ -1,0 +1,73 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    display: flex;
+    flex-direction: column;
+}
+
+header
+{
+    height: 20vh;/*ajusta o tamanho de forma responsiva, usando o vh de acordo com a tela*/
+    background-color: brown;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 40px;
+    align-items: center;
+}
+
+.logo
+{
+    width: 10%; /*quando é usado porcentagem, apmlia de acordo com o pai*/
+    height: 60%;
+    background-color: white;
+}
+
+nav /*painel para navegação*/
+{
+    width: 30%;
+    height: 60%;
+    background-color: white;
+}
+
+.principal
+{
+    display: flex;
+    justify-content: space-between;
+    height: 60vh;
+}
+
+aside
+{
+    width: 30vw;/*largura da tela*/
+    background-color: blueviolet;
+}
+
+main
+{
+    width: 70vw;/*restante da largura da tela de acordo com o aside*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+}
+
+section
+{
+    height: 20vh;
+    background-color: chocolate;
+    margin-bottom: 20px;
+    width: 50%; 
+}
+
+footer
+{
+    background-color: black;
+    height: 20vh; /*somado os tamanhos da um total de 100vh*/
+}
