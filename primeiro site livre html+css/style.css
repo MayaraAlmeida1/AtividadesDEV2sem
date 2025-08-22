@@ -1,0 +1,69 @@
+*
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border border-box;
+}
+
+body
+{
+   margin: 50px;
+   background-color: black;
+   color: #ffffff;
+}
+
+.banner
+{
+    background-image: linear-gradient(180deg, rgba(3, 3, 4, 0), rgba(8, 10, 14, 0.9)) ,url(e578d7555ba1e2e1e862a8b60cbd7e03\ -\ Editado.jpg);
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    
+    text-align: center;
+    color: #ffffff;
+}
+
+.banner h1
+{
+}
+
+h2
+{
+    margin: 50px 0px;
+    background-color: #6d2012;
+    border-radius: 30px;
+    padding: 5px;
+    width: 500px;
+}
+
+table
+{
+    border-collapse: collapse;
+    width: 70%;
+}
+
+th, td
+{
+    border: 2px solid #6d2012;
+    padding: 8px;
+    text-align: center;
+}
+
+th
+{
+    background-color: #6d2012;
+}
+
+h3
+{
+    margin: 15px 0px 15px;
+}
+
+.filme1
+{
+    background-color: #6d20126e;
+    border-radius: 10px;
+    border: 1px solid #6d2012;
+    padding: 20px;
+}
