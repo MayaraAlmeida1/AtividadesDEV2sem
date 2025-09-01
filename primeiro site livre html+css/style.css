@@ -24,23 +24,29 @@ body
     color: #ffffff;
 }
 
-.banner h1
+.categoria
 {
+    display: flex;
+    justify-self: center;
 }
 
 h2
 {
-    margin: 50px 0px;
+    display: flex;
+    justify-content: center;
     background-color: #6d2012;
     border-radius: 30px;
+    margin: 50px 0px;
     padding: 5px;
     width: 500px;
 }
 
 table
 {
-    border-collapse: collapse;
+    margin-right: auto;
+    margin-left: auto;
     width: 70%;
+    border-collapse: collapse;  
 }
 
 th, td
@@ -57,13 +63,19 @@ th
 
 h3
 {
-    margin: 15px 0px 15px;
+    margin: 15px 0px;
 }
 
-.filme1
+.filme
 {
     background-color: #6d20126e;
     border-radius: 10px;
     border: 1px solid #6d2012;
     padding: 20px;
+    margin: 20px 0px;
+}
+
+.trailer
+{
+    padding-top: 10px;
 }
